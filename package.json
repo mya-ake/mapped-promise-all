@@ -13,7 +13,8 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "test": "run-s test:*",
-    "test:unit": "jest --config tests/unit/jest.config.js --ci"
+    "test:unit": "jest --config tests/unit/jest.config.js --ci",
+    "release": "shipjs prepare"
   },
   "devDependencies": {
     "@types/jest": "^26.0.7",
@@ -26,6 +27,7 @@
     "rollup": "^2.23.0",
     "rollup-plugin-typescript2": "^0.27.1",
     "rollup-plugin-uglify": "^6.0.4",
+    "shipjs": "0.20.1",
     "ts-jest": "^26.1.4",
     "typescript": "^3.9.7"
   },
