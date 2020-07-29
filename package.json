@@ -1,6 +1,6 @@
 {
   "name": "mapped-promise-all",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Provides a mapping of the response of `Promise.all` to an object",
   "main": "dist/index.common.js",
   "unpkg": "dist/index.umd.js",
