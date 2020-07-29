@@ -20,9 +20,14 @@ $ yarn add mapped-promise-all
 import { mappedPromiseAll } from 'mapped-promise-all';
 
 const getUser = async () => ({
-  user: { name: 'user', email: 'sample@example.com' },
+  name: 'user',
+  email: 'sample@example.com',
 });
-const getItems = async () => ({ items: [] });
+
+const getItems = async () => [
+  { id: 1, name: 'item 1' },
+  { id: 2, name: 'item 2' },
+];
 
 mappedPromiseAll({
   user: getUser(),
@@ -30,6 +35,13 @@ mappedPromiseAll({
 }).then(({ user, items }) => {
   // do something
 });
+
+// async/await
+const { user, items } = await mappedPromiseAll({
+  user: getUser(),
+  items: getItems(),
+});
+// do something
 ```
 
 ## Contribution
