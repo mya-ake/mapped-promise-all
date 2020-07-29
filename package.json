@@ -4,7 +4,7 @@
   "description": "Provides a mapping of the response of `Promise.all` to an object",
   "main": "dist/index.common.js",
   "unpkg": "dist/index.umd.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/mapped-promise-all.d.ts",
   "repository": "https://github.com/mya-ake/mapped-promise-all.git",
   "bugs": {
     "url": "https://github.com/mya-ake/mapped-promise-all/issues"
