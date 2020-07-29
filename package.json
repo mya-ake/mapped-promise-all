@@ -12,7 +12,8 @@
     "build:umd": "BUILD_FORMAT=umd rollup --config rollup.config.js",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "test:unit": "jest --config tests/unit/jest.config.js"
+    "test": "run-s test:*",
+    "test:unit": "jest --config tests/unit/jest.config.js --ci"
   },
   "devDependencies": {
     "@types/jest": "^26.0.7",
