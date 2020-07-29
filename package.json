@@ -1,6 +1,6 @@
 {
   "name": "mapped-promise-all",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "https://github.com/mya-ake/mapped-promise-all.git",
   "author": "mya-ake <make.app.ts@gmail.com>",
