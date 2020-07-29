@@ -4,10 +4,10 @@ module.exports = {
   rootDir: process.cwd(),
   moduleFileExtensions: ['js', 'ts'],
   transformIgnorePatterns: ['/node_modules/'],
-  testMatch: ['**/src/**/*.spec.ts'],
+  testMatch: ['**/tests/unit/**/*.spec.ts'],
   globals: {
     'ts-jest': {
-      tsConfig: '<rootDir>/tsconfig.json',
+      tsConfig: '<rootDir>/tests/tsconfig.json',
     },
   },
 };

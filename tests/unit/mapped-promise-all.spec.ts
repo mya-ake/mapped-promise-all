@@ -1,4 +1,4 @@
-import { mappedPromiseAll } from './mapped-promise-all';
+import { mappedPromiseAll } from '../../src/mapped-promise-all';
 
 const task1 = () => 'task1';
 const task2 = async () => 'task2';
