@@ -44,5 +44,12 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  }
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "promise",
+    "Promise.all"
+  ]
 }
